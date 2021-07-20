@@ -8,8 +8,8 @@ function Register() {
     return (
      <Fragment>
     
-        <section className="block">
-          <div className="wrapper">
+        <section>
+          <div>
             <h2>Cadastrar</h2>
 
             <form className="section-sign-in">
@@ -37,11 +37,12 @@ function Register() {
         </section>
         <section className="block">
           <div className="wrapper">
-            <h2 className="title">Sua senha guiaSmart</h2>
-            <p>A senha deve possuir no mínimo 6 caracteres</p>
+           
+         
             <form className="section-sign-in">
               <div className="form-group form-icon">
                 <label className="form-label">Crie uma nova senha</label>
+                
                 <i className="icon icon-locker" />
                 <button type="button" className="btn-show-password">
                   mostrar
@@ -49,9 +50,10 @@ function Register() {
                 <input type="text" className="form-input form-icon-lock" placeholder="Insira uma nova senha" />
               </div>
               <div className="form-group form-icon">
-                <label className="form-label">Repita a senha criada</label>
+                
                 <i className="icon icon-locker" />
-                <button type="button" className="btn-show-password">
+                <label className="form-label">Repita a senha criada</label>
+                 <button type="button" className="btn-show-password">
                   mostrar
                 </button>
                 <input type="text" className="form-input form-icon-lock" placeholder="Insira a nova senha criada" />
